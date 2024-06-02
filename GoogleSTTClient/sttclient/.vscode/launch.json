@@ -1,0 +1,16 @@
+{
+    "configurations": [
+      {
+        "name": "Deploy Cloud Function",
+        "type": "cloudcode.cloudfunctions",
+        "request": "launch",
+        "functionName": "sttclient",
+        "gen": "GEN_2",
+        "entryPoint": "speech_to_text",
+        "revision": "1",
+        "testInput": "",
+        "region": "europe-west2",
+        "runtime": "python39"
+      }
+    ]
+}

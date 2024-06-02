@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "googlevisionclient",
+      "gen": "GEN_2",
+      "entryPoint": "detect",
+      "revision": "googlevisionclient-00008-vib",
+      "testInput": "",
+      "region": "europe-west2",
+      "runtime": "python39"
+    }
+  ]
+}

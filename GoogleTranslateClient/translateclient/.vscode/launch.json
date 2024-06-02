@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Deploy Cloud Function",
+      "type": "cloudcode.cloudfunctions",
+      "request": "launch",
+      "functionName": "googletranslateclient",
+      "gen": "GEN_2",
+      "entryPoint": "translate_text",
+      "revision": "googletranslateclient-00009-fev",
+      "testInput": "",
+      "region": "europe-west2",
+      "runtime": "python39"
+    }
+  ]
+}
